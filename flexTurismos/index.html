@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Turismos</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>
-        <ul>
+      <div class="flex-container menu">
+        <div><h1>Flex Turismos</h1></div>
+        <ul class="list-items">
           <li><a href="quem-somos">Quem Somos</a></li>
           <li><a href="servicos">Serviços</a></li>
           <li><a href="planos">Planos</a></li>
         </ul>
-      </h1>
+      </div>
     </header>
 
-    <div>
+    <div class="flex-container">
       <div>
         <h1>Flex <br />Turismos</h1>
         <p>O melhor serviço para você!</p>
@@ -32,7 +34,7 @@
     </div>
 
     <!-- Quem somos -->
-    <div>
+    <div class="flex-container" id="quem-somos">
       <div>
         <img src="./images/1-quem-somos.png" alt="balcão de atendimento" />
       </div>
@@ -52,7 +54,7 @@
     </div>
 
     <!-- Serviços -->
-    <div>
+    <div class="flex-container" id="servicos">
       <h2>Serviços</h2>
 
       <div>
@@ -84,9 +86,9 @@
     </div>
 
     <!-- Planos -->
-    <div>
+    <div class="flex-container" id="planos">
       <!-- plano 1 -->
-      <div>
+      <div class="flex-container">
         <h3>Plano 1</h3>
         <ul>
           <li>Suporte 24h</li>
@@ -97,7 +99,7 @@
       </div>
 
       <!-- plano 2 -->
-      <div>
+      <div class="flex-container">
         <h3>Plano 2</h3>
         <ul>
           <li>Suporte 24h</li>
@@ -110,7 +112,7 @@
       </div>
 
       <!-- plano 3 -->
-      <div>
+      <div class="flex-container">
         <h3>Plano 3</h3>
         <ul>
           <li>Suporte 24h</li>
@@ -125,7 +127,7 @@
     </div>
 
     <!-- Rodapé -->
-    <footer>
+    <footer class="flex-container">
       <p>&copy; 2022 CSS Flexbox</p>
       <p>Desenvolvido por: Ivalto Viana</p>
     </footer>
